@@ -10,9 +10,9 @@ enum {IDLE, RUNNING, JUMPING, FALLING}
 var state = IDLE
 
 export var max_speed = 75.0
-export var jump_force = 75.0
+export var jump_force = 100.0
 export var gravity = 2.0
-export var gravity_strong = 4.0
+export var gravity_strong = 3.0
 export var accel = 0.1
 export var coyote_time = 0.1
 
